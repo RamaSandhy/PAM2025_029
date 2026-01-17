@@ -1,15 +1,20 @@
-package com.example.final_project // SESUAIKAN dengan nama package kamu jika berbeda
+package com.example.final_project
 
 import android.app.Application
 import com.example.final_project.repository.AppContainer
 import com.example.final_project.repository.DefaultAppContainer
+import com.google.firebase.FirebaseApp // Tambahkan import ini
 
 class TravelApplication : Application() {
-    /** AppContainer instance used by the rest of the classes to obtain dependencies */
     lateinit var container: AppContainer
 
     override fun onCreate() {
         super.onCreate()
+
+        // LANGKAH PENTING: Inisialisasi Firebase dulu!
+        FirebaseApp.initializeApp(this)
+
+        // Baru kemudian buat containernya
         container = DefaultAppContainer()
     }
 }

@@ -4,9 +4,9 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class Tiket(
-    val id: Int? = null,
-    val namaPenumpang: String,
-    val rute: String,
-    val kursi: String,
-    val harga: String
+    val id: String = "",
+    val namaPenumpang: String = "",
+    val rute: String = "",
+    val kursi: String = "",
+    val harga: String = "80k"
 )

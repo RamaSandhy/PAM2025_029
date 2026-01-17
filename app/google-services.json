@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1003551569607",
+    "project_id": "travelkita-6e9b6",
+    "storage_bucket": "travelkita-6e9b6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1003551569607:android:281e9071cc745c666d70e2",
+        "android_client_info": {
+          "package_name": "com.example.final_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBM5XiLgEF31_aF9Mg13V0S82XPrsEbGEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
